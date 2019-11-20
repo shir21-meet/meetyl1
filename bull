@@ -1,0 +1,13 @@
+class Bull(Turtel):
+	def__init__(self, r, color, dx, dy):
+		Turtel.__init__(self)
+	self.penup()
+	self.shape('Circle')
+	self.r = 10
+	self.dx = 10
+	self.dy = 10
+	self.color = color
+	
+	
+	
+
