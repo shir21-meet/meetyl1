@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>shir party! file</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<style>
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 32px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 100px;
+  margin: 4px 2px;
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%
+
+
+}
+.button1 {
+  background-color: #f44336;
+  border: none;
+  color: white;
+  padding: 32px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 100px;
+  margin: 4px 2px;
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%
+
+
+}
+</style>
+<body>
+	<h1>shir party!</h1>
+	<h2 id="header">you in a party what do you drink?</h2>
+	<button id="a" onclick='A();' class="button">cola</button>
+	<button id="b" onclick='B();' class="button1">bear</button>
+	<script type="text/javascript">
+		function A(){
+			document.getElementById("header").innerHTML = "you see a cute girl. do you hit on her?";
+			document.getElementById("a").innerHTML = "yes";
+			document.getElementById("b").innerHTML = "no";
+			document.getElementById("b").onclick = D;
+			document.getElementById("a").onclick = C;
+		}
+		function B(){
+			document.getElementById("header").innerHTML = "the police catch you thay take you to the police staition. do you run?";
+			document.getElementById("a").innerHTML = "i ran";
+			document.getElementById("b").innerHTML = "i dont";
+			document.getElementById("b").onclick = E;
+			document.getElementById("a").onclick = F;
+		}
+		function C(){
+			console.log("in function c");
+			document.getElementById("header").innerHTML = "she said she have a boyfrined. do yo keep kiss her?";
+			document.getElementById("a").innerHTML = "yes";
+			document.getElementById("b").innerHTML = "no";
+			document.getElementById("b").onclick = D;
+			document.getElementById("a").onclick = G;
+
+		}
+		function D(){
+			document.getElementById("header").innerHTML = "someone is hiting on you. do you kiss her?";
+			document.getElementById("a").innerHTML = "yes";
+			document.getElementById("b").innerHTML = "no";
+			document.getElementById("b").onclick = H;
+			document.getElementById("a").onclick = G;
+		}
+		
+		function E(){
+			document.getElementById("header").innerHTML = "thay inavait you to join the police acdamy. do you join?";
+			document.getElementById("a").innerHTML = "yes";
+			document.getElementById("b").innerHTML = "no";
+			document.getElementById("b").onclick = k;
+			document.getElementById("a").onclick = L;
+
+		}
+		function F(){
+			document.getElementById("header").innerHTML = "some old guy offer you candy do you take it?";
+			document.getElementById("a").innerHTML = "yes";
+			document.getElementById("b").innerHTML = "no";
+			document.getElementById("b").onclick = I;
+			document.getElementById("a").onclick = J;
+		}
+			function G(){
+			document.getElementById("header").innerHTML = "her boyfrined come and hit you do you hit him back?";
+			document.getElementById("a").innerHTML = "yes";
+			document.getElementById("b").innerHTML = "no";
+			document.getElementById("b").onclick = M;
+			document.getElementById("a").onclick = N;
+		}
+		function H(){
+			document.getElementById("header").innerHTML = "someone offer you a cigarte do you take it?";
+			document.getElementById("a").innerHTML = "yes";
+			document.getElementById("b").innerHTML = "no";
+			document.getElementById("b").onclick = F;
+			document.getElementById("a").onclick = B;
+		}
+		function I(){
+			document.getElementById("header").innerHTML = "you are very responseble.you neard!!!!!!!!!:)";
+		}	
+		function J(){
+			document.getElementById("header").innerHTML = "it was very tasty :) but your dead.......:(";
+		}
+		function K(){
+			document.getElementById("header").innerHTML = "you go to jail and one of the prisnors kill you!:(";
+
+		}
+		function L(){
+			document.getElementById("header").innerHTML = "just kiding LAMO LOL. YOU GO TO JAIL:( ";
+		}
+		function M(){
+			document.getElementById("header").innerHTML = "he beat you to death... ";
+		}
+		function N(){
+			document.getElementById("header").innerHTML = "you bit him and win the girl. incrdlitions you are an ass hole ";
+		}
+		
+	</script>
+</body>
+</html>
+ 
